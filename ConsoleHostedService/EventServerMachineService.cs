@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ServiceModel;
 using System.Configuration;
 using ConsoleHostedService.Client;
@@ -27,7 +23,10 @@ namespace ConsoleHostedService
             Console.WriteLine($"The machine with name={machineName} Has Started!");
 
             bool isSlave = Convert.ToBoolean(ConfigurationManager.AppSettings.Get("IsSlave"));
-            if (!isSlave) { return; }
+            if (!isSlave) 
+            { 
+                return; 
+            }
 
             Proxy proxy = new Proxy("BasicHttpBinding_IMasterService");
 
@@ -35,7 +34,7 @@ namespace ConsoleHostedService
             {
                 proxy.SignalMachineStarted(machineName);
             }
-            catch (EndpointNotFoundException ex) { }
+            catch (EndpointNotFoundException ex) { /*...*/ }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());

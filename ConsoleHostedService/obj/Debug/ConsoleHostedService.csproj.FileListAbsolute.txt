@@ -4,3 +4,11 @@ E:\Code\School\WCF\ConsoleHostedService\bin\Debug\ConsoleHostedService.pdb
 E:\Code\School\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.csproj.CoreCompileInputs.cache
 E:\Code\School\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.exe
 E:\Code\School\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.pdb
+F:\GIT Repos\WCF\ConsoleHostedService\bin\Debug\ConsoleHostedService.exe.config
+F:\GIT Repos\WCF\ConsoleHostedService\bin\Debug\ConsoleHostedService.exe
+F:\GIT Repos\WCF\ConsoleHostedService\bin\Debug\ConsoleHostedService.pdb
+F:\GIT Repos\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.csproj.AssemblyReference.cache
+F:\GIT Repos\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.csproj.SuggestedBindingRedirects.cache
+F:\GIT Repos\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.csproj.CoreCompileInputs.cache
+F:\GIT Repos\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.exe
+F:\GIT Repos\WCF\ConsoleHostedService\obj\Debug\ConsoleHostedService.pdb

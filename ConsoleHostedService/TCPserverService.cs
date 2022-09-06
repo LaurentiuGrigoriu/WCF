@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.ServiceModel;
 using System.ServiceProcess;
-using System.Text;
-using System.Threading.Tasks;
 using ConsoleHostedService.Client;
 
 namespace ConsoleHostedService
@@ -33,8 +30,7 @@ namespace ConsoleHostedService
             {
                 ServiceBase.Run(new TCPserverService());
             }
-
-            else if (args[0].Equals("C")) //For Commandline execution
+            else if (args[0].Equals("C")) // Commandline execution for debugging purpose
             {
                 EventServerMachineHost = new ServiceHost(typeof(EventServerMachineService));
 
@@ -58,6 +54,10 @@ namespace ConsoleHostedService
                 Console.ReadLine();
 
                 Cleanup();
+            }
+            else 
+            {
+                Console.WriteLine(Environment.NewLine + "Use C parameter for debug, or no parameter to start as a service");
             }
         }
 
